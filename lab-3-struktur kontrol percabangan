@@ -1,0 +1,11 @@
+umur=int(input("masukkan umur: "))
+if umur>=0 and umur<=2:
+    print("jam tidur ideal:11-14 jam")
+elif umur>=3 and umur<=5:
+    print("jam tidur ideal:10-13 jam")
+elif umur>=6 and umur<=17:
+    print("jam tidur ideal:9-11 jam")
+elif umur>=18 and umur<=64:
+    print("jam tidur ideal:7-9 jam")
+elif umur>=65:
+    print("jam tidur ideal:7-8 jam")
